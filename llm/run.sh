@@ -1,0 +1,1 @@
+python -m sglang.launch_server --quantization gptq --model-path /workspace/test/Qwen2-72B-Instruct-GPTQ-Int4 --port 30000 --tp 4 --enable-p2p-check --disable-flashinfer --disable-flashinfer-sampling
